@@ -1,0 +1,266 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2015, 8:01:27 PM
+    Author     : BrandonB
+*/
+#head{
+    position:relative;
+}
+#container{
+    position:relative;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+#company{
+    position:absolute;
+    padding-left: 20em;
+    margin-right: 3em;
+    right:5em;
+    left:0em;
+    top:0.5em;
+}
+#selected{
+    border-radius: 10px;
+    background-color: #d44c2c;
+    color: white;
+}
+.orangebox{
+    padding:0.6em 0.8em 0.6em 0.8em;
+    border-radius: 10px;
+    background-color: #d44c2c;
+    color: white;   
+    text-decoration: none;
+}
+h1{
+    font-family:sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+}
+.h2weight{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+   font-weight: 500;
+}
+#h2space{
+   margin-bottom: 0; 
+   font-weight: 600;
+   font-size: 26pt;
+}
+#image{
+    position: relative;
+    background-size: cover;
+    background-image: url(../image/long.jpg);
+    padding: 12em 0em;
+}
+#space{
+    padding-top: 8em;
+}
+#nav{
+    position: absolute;
+    display: inline;
+    text-transform: uppercase;
+    right:8em;
+    top:2em;
+}
+#nav > ul > li{
+    float: left;
+    letter-spacing: 0.06em;
+    display:block;
+    padding-top: 1em;
+    padding-right: 0.8em;
+    padding-bottom: 1em;
+    padding-left: 0.8em;
+    margin-right: 2em;
+}
+.boxes{
+    float:left;
+    padding: 3em 0em 0em 1em;
+    width: 20%;
+    display:border-box;
+}
+h2{
+    margin-bottom: 1.5em;
+}
+.container2{
+    font-family:sans-serif;
+    padding: 50px;
+    width: 80%;
+    margin-left: 13em;
+    float:left;
+    position: relative;
+}
+p{
+    line-height: 155%;
+    margin-right: 0em;
+    margin-left: 0em;  
+    margin-bottom: 1em;
+}
+.small{
+    font-size: 11pt;
+    padding-bottom: 1em;
+}
+.boxes2{
+    float:left;
+    padding: 3em 0em 0em 1em;
+    width: 45%;
+    display:border-box;
+}
+.list{
+    margin:0;
+    list-style: none;
+    padding: 0.5em 0em 1em 0em;
+    display: box;
+}
+.listimage{
+    float:left;
+    padding-right: 1em;
+}
+
+.listspacer{
+   padding-bottom: 0.5em;
+}
+
+.orangeletter{
+   color: #d44c2c;
+}
+#boxlist{
+    float:left;
+    margin-left:2em;
+    padding: 3em 0em 0em 0em;
+    width: 20%;
+    display:border-box;
+}
+#boxlist2{
+    float:left;
+    margin-left:2em;
+    margin-bottom: 1em;
+    width: 20%;
+    display:border-box;
+}
+#h2list{
+     font-weight: 500;
+     margin-bottom: 1em;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.container3{
+    font-family:sans-serif;
+    width: 100%;
+    float:left;
+    position: relative;
+    background-image: url(../image/black.jpg);
+    background-repeat:repeat;
+}
+.threebox{
+    float:left;
+    padding: 3em 0em 0em 1em;
+    display:inline-block;
+}
+#space2{
+    margin-left: 28em;
+}
+.boxes4{
+    float:left;
+    padding: 0.5em 1em 1.5em 1em;
+    width: 20%;
+    display:border-box;
+    background-color: white;
+    margin-right: 3.5em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.imageleft{
+    float:left;
+    padding-right: 1em;
+    display: inline-block;
+    margin: 0em;
+}
+.smallweight{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+   font-weight: 400;
+   font-size: 10pt;
+}
+.orangeboxright{
+    padding:0.6em 0.8em 0.6em 0.8em;
+    border-radius: 10px;
+    background-color: #d44c2c;
+    color: white;   
+    text-decoration: none;
+    float:left;
+    position: relative;
+}
+.nomarg{
+    font-size: 10pt;
+    
+}
+.container4{
+    font-family:sans-serif;
+    width: 70%;
+    float:left;
+    position: relative;
+    margin-left: 26em;
+}
+.boxes5{
+    float:left;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    width: 20%;
+}
+.h2white{
+    color: #999999;
+    margin-bottom: 0.5em;
+}
+.white{
+    color: #999999;
+    font-size: 10pt;
+    margin-bottom: 0;
+}
+.whitebox{
+    background-color: #DFDCDC;
+    border-radius: 5px;
+    padding: 1em 1em 1em 1em;
+}
+#pspacing{
+    line-height: 250%;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 11pt;
+}
+#pindent{
+    padding-left: 1.5em;
+}
+.whitespace{
+    color: #999999;
+    font-size: 10pt;
+    margin-bottom: 2em;
+}
+.imagesquare{
+    float:left;
+    padding: 0.1em 0em 0.4em 0.4em;
+}
+.imagesquare2{
+    float:left;
+    padding: 0.1em 0em 0em 0.4em;
+    margin-bottom: 2em;
+}
+.spacer{
+    margin-top: 8em;
+    float: left;
+    margin-bottom: 6em;
+    margin-left: 24em;
+}
+.whitecopy{
+    color: #999999;
+    font-size: 24pt;
+    margin-bottom: 0;
+}
